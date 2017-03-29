@@ -28,7 +28,8 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/header.jpg');
+    /*background-image: url('../images/header.jpg');*/
+	background-image: url('../images/bg.gif');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -92,11 +93,21 @@ header .header-content .header-content-inner p {
 .section-heading {
     margin-top: 0;
     margin-bottom: 20px;
+	color: #4285f4;
 }
 
 .intro {
 	color: #fff;
     background-color: yellowgreen;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+.theCrisis {
+	color: #fff;
+    background-color: #222222;
+	/*background-image: url('../images/writing.jpg');*/
     padding: 70px 0;
     text-align: center;
 }
